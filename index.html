@@ -1,0 +1,39 @@
+<!doctype html/>
+<html>
+    <head>
+        <title>Transition</title>
+        <meta charset="UTF-8"/>
+        <style>
+            .navigation{
+                float:right;
+            }
+            a{
+                text-decoration:none;
+                color:white;
+                padding:10px 10px 10px 0;
+                display:block;
+                float:right;
+                clear:both;
+                width:100%;
+                text-align:center;
+                background-color:#ccc;
+                transition: background-color 0.7s ease-in-out, width 0.2s ease-in-out;
+            }
+                a:hover{
+                width:300%;
+                background-color:#ff0000;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div class="navigation">
+            <a href="#">Button One</a>
+            <a href="#">Button Two</a>
+            <a href="#">Button Three</a>
+            <a href="#">Button Four</a>
+        </div>
+
+    </body>
+</html>
